@@ -1,1 +1,23 @@
 /* styles go here */
+.form-field {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.group-field {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.first-input {
+  margin-top: 0;
+}
+
+.last-input {
+  margin-bottom: 0;
+}
+
+.first-group {
+  margin-top: 0;
+}
