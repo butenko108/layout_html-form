@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -12,12 +11,10 @@
 
   <body>
     <script type="text/javascript" src="./main.js"></script>
-
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
-
-      <fieldset class="group-field first-group">
+      <fieldset class="group-field">
         <legend>Personal information</legend>
-        <label class="form-field first-input">
+        <label class="form-field">
           Surname:
           <input
             type="text"
@@ -61,7 +58,7 @@
 
       <fieldset class="group-field">
         <legend>Registration</legend>
-        <label class="form-field first-input">
+        <label class="form-field">
           E-mail:
           <input
             type="email"
@@ -84,7 +81,7 @@
 
       <fieldset class="group-field">
         <legend>An interesting fact about you!</legend>
-        <div class="form-field first-input">
+        <div class="form-field">
           <label>
             Do you love cats?
             <input
@@ -96,9 +93,9 @@
           </label>
           <label>
             <input
-            type="radio"
-            name="cats"
-            value="no"
+              type="radio"
+              name="cats"
+              value="no"
             >
             No
           </label>
@@ -138,11 +135,11 @@
 
       <fieldset class="group-field">
         <legend>Additional info:</legend>
-        <label class="form-field first-input">
+        <label class="form-field">
           Comments:
           <textarea name="comments"></textarea>
         </label>
-        <label class="form-field last-input">
+        <label class="form-field">
           Would you recommend us?
           <select name="recommend">
             <option value="yes">yes</option>
@@ -154,5 +151,4 @@
       <button type="submit">Submit</button>
     </form>
   </body>
-
 </html>
